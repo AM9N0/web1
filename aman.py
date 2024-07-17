@@ -1,3 +1,8 @@
+const axios = require("axios");
+const os = require('os');
+const crypto = require('crypto');
+const https = require("https");
+const readline = require("readline");
 const {
   exec
 } = require("child_process");
